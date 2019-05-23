@@ -1,7 +1,7 @@
 body{
   margin: 0;
   background-color: lightgrey;
-  font-family: 'PT Mono', monospace;
+  font-family:'PT Sans Narrow', sans-serif;;
 }
 
 .header {
@@ -34,7 +34,7 @@ h2 {
 }
 .main {
   background-color: white;
-  font-family: 'PT Mono', monospace;
+  font-family:'PT Sans Narrow', sans-serif;;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,7 +47,7 @@ hr {
   background-color: teal;
 }
 .footer {
-  font-family: 'PT Mono', monospace;;
+  font-family:'PT Sans Narrow', sans-serif;
   background-color: teal;
   height: 80px;
   text-align: center;
