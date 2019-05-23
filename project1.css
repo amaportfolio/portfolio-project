@@ -63,7 +63,7 @@
 .dropdown:hover .dropbtn {background-color: white; color:teal;}
 
 body {
-  background-color: lightgrey;
+  background-color: white;
   
 }
 
@@ -78,6 +78,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ 
 }
 
 
