@@ -110,11 +110,7 @@ body {
   height: 80px;
   text-align: center;
   padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   
-  left: 0;
   bottom: 0;
   width: 100%;
  
