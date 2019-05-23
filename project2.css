@@ -3,11 +3,13 @@
   background: teal;
   padding: 20px;
   text-align: center;
+  font-family:'PT Sans Narrow', sans-serif;
 }
 .navbar {
   overlow: hidden;
   background: grey;
-  padding:10px 0px
+  padding:10px 0px;
+  font-family:'PT Sans Narrow', sans-serif;  
 }
 .navbar a{
   color: white;
@@ -25,6 +27,7 @@
   padding: 5px;
   padding-left: 50px;
   max-width: calc(100%-100px);
+  font-family:'PT Sans Narrow', sans-serif;
 }
 .img{
   padding: 10px;
