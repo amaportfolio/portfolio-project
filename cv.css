@@ -1,8 +1,7 @@
-body{
+body {
   margin: 0;
   background-color: lightgrey;
   font-family:'PT Sans Narrow', sans-serif;
-  min-height: 100vh;
 }
 
 .header {
@@ -69,6 +68,7 @@ p {
         -ms-animation: fadein 5s; /* Internet Explorer */
          -o-animation: fadein 5s; /* Opera < 12.1 */
             animation: fadein 5s;
+  padding-bottom: 15px;
 }
 }
 @keyframes fadein {
