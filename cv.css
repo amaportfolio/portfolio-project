@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: lightgrey;
+  font-family: 'PT Mono', monospace;
+}
+
+.header {
+  background-color: teal;
+  height: 100px;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #666;
+  justify-content: space-around;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: teal;
+  color: white;
+}
+h2 {
+  font-size: 25px;
+  text-decoration: underline;
+  margin-left: 20px;
+  text-align: center;
+}
+.main {
+  background-color: white;
+  font-family: 'PT Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+hr {
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 5px;
+  background-color: teal;
+}
+.footer {
+  font-family: 'PT Mono', monospace;;
+  background-color: teal;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center
+  
+}
+a {
+  padding: 20px;
+  font-size: 40px;
+}
+a:hover {
+  color: white;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
