@@ -63,3 +63,16 @@
 body {
   background-color: lightgrey;
 }
+
+
+
+.footer {
+  font-family:'PT Sans Narrow', sans-serif;
+  background-color: teal;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
