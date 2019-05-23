@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-color: lightgrey;
   font-family:'PT Sans Narrow', sans-serif;
+  min-height: 100vh;
 }
 
 .header {
