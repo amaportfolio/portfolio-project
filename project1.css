@@ -67,7 +67,7 @@ body {
   margin: 0;
   padding: 0;
 }
-h2 {
+
 
 
 .footer {
@@ -82,13 +82,8 @@ h2 {
 }
 
 
-a {
-  padding: 20px;
-  font-size: 40px;
-}
-a:hover {
-  color: white;
-}
+
+
 a:link {
   color: black;
   background-color: transparent;
