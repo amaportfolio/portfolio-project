@@ -9,7 +9,6 @@ body{
 }
 header{
   background-image: url(https://mathewjijo2002.github.io/images-/city.jpg)
-
 }
 
 .nav-bar{
@@ -19,8 +18,8 @@ header{
 
 .list{
   list-style-type: none;
-  
 }
+
 .link {
   float:right;
   color: white;
@@ -37,74 +36,127 @@ header{
   background-color: grey;
   color: teal;
 }
+
 .dropbtn{
-  background-color: teal;
   color: white;
   font-family:'PT Sans Narrow', sans-serif;
-  border: none;
   cursor: pointer;
   text-decoration: none;
-  padding: 20px 15px;
-  
+  text-transform: uppercase;
+  padding: 20px;
+  padding-top: 25px; 
 }
+
 .dropdown {
   postion: relative;
   display: inline-block;
   float: right;
-  margin-top: 22px;
+  margin-top: 25px;
 } 
 
+
+
 .dropdown-content{
+
   display: none;
+
   position: absolute;
+
   background-color: lightgrey;
-  min-width: 88px;
+  margin-top: 1%;
+  min-width: 105px;
+
   box shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
   z-index:1;
+
 }
+
+
 
 .dropdown-content a{
+
   color: black;
+
   padding: 20px 10px;
+
   text-decoration: none;
+
   display: block;
+
   font-family: 'PT Sans Narrow', sans-serif;;
+
 }
 
+
+
 .dropdown-content a:hover{background-color: white;}
+
 .dropdown:hover .dropdown-content{display:block;}
+
 .dropdown:hover .dropbtn{background-color: grey; color: teal;}
 
 
+
+
+
 .welcome-text{
+
   text-align: center;
+
   font-size: 50px;
+
   font-weight: 300;
+
 	letter-spacing: 4px;
-  font-family: 'PT Sans Narrow', sans-serif;;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+
   color:#383838;
+
 }
+
+
 
 .welcome-text h6{
+
   margin-top: -50px;
+
   font-weight: 300;
+
 	font-size: 30px;
+
 	letter-spacing: 4px;
+
 	color: #b2b2b2;
-}
-  
-
-main {
-	display:flex;
-  justify-content:
 
 }
+
+.mid{
+  display:flex;
+  justify-content: center;
+}
+.about-heading{
+  display:flex;
+  justify-content: center;
+  font-size: 20px
+}
+.para{
+  width:  800px;
+  height: 200px;
+  margin-top: -5px
+}
+
+
 
 .nav-list{
   display: flex;
   justify-content: center;
   list-style-type: none;
+  margin-top: 70px;
+  margin-bottom: 5px;
 }
+
 .icon-link{
   font-size: 40px;
   padding: 20px;
@@ -114,15 +166,104 @@ main {
   display: flex;
   justify-content: center;
   height: 30px;
-  background-color: ;
+  background-color: lightgrey;
+}
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-left: 30px;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -40%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.about-heading{
-  
+.text {
+  width: 300px;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family:"PT Sans Narrow", sans-serif;
+  cursor: pointer;
 }
-.para{
-  max-width: 300px
-  width: 800px;
-  max-width: calc(100%-40px)
+.container:hover .image {
+  opacity: 0.3;
+}
 
-  
+.container:hover .middle {
+  opacity: 1;
+}
+ .about-heading2{
+  display:flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: -30px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  flex: 0 50%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -40%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: grey;
+  width: 300px;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family:"PT Sans Narrow", sans-serif;
+  cursor: pointer;
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+ 
+
+
+
+
+
