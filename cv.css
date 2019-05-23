@@ -6,29 +6,25 @@ body {
 
 .header {
   background-color: teal;
-  height: 100px;
-  padding: 20px;
+  height: 120px;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 .navbar {
-  overflow: hidden;
-  background-color: #666;
-  justify-content: space-around;
+  overlow: hidden;
+  background: grey;
+  display: flex;
 }
-.navbar a {
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  padding: 14px;
+.navbar a{
+  color: black;
   text-decoration: none;
+  padding: 5px 15px;
+  font-size: 30px;
 }
-.navbar a:hover {
-  background-color: teal;
-  color: white;
+.navbar a:hover{
+  background: white;
+  color:teal;
 }
 h2 {
   font-size: 25px;
@@ -84,3 +80,30 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
+.dropdown {
+  position: relative;
+  display: flex; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:grey;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,2,1,0.55);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white; color:teal}
+
+.dropdown:hover .dropdown-content {display: block; }
+
+.dropdown:hover .dropbtn {background-color: white; color:teal;}
